@@ -1,6 +1,6 @@
-#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 #define NoSuchKey -1
 
@@ -37,16 +37,12 @@ int main() {
 
     initializeTree();
 
-    while (1) {
-        scanf("%c", &cmd);
-        getchar();
+    while (scanf(" %c", &cmd) == 1) {
         if (cmd == 'i') {
             scanf("%d", &k);
-            getchar();
             insertItem(k);
         } else if (cmd == 'd') {
             scanf("%d", &k);
-            getchar();
             e = removeElement(k);
             if (e == NoSuchKey) {
                 printf("X\n");
@@ -55,7 +51,6 @@ int main() {
             }
         } else if (cmd == 's') {
             scanf("%d", &k);
-            getchar();
             e = findElement(k);
             if (e == NoSuchKey) {
                 printf("X\n");
