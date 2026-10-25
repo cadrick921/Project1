@@ -1,0 +1,5 @@
+{
+    "files.exclude": {
+        ".clang-format": true
+    }
+}
