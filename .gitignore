@@ -1,8 +1,0 @@
-# Track only source code
-*
-!*/
-!*.c
-!*.cpp
-!*.h
-!README.md
-!.gitignore
