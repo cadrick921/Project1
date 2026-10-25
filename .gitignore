@@ -1,14 +1,8 @@
-# Visual Studio
-.vs/
-*.user
-*.suo
-
-# Build outputs
-x64/
-Debug/
-Release/
-*.exe
-*.obj
-*.ilk
-*.pdb
-*.ipch
+# Track only source code
+*
+!*/
+!*.c
+!*.cpp
+!*.h
+!README.md
+!.gitignore
