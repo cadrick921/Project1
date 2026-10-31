@@ -1,3 +1,7 @@
 {
-    "C_Cpp.clang_format_style": "file:${workspaceFolder}/.vscode/.clang-format"
+    "C_Cpp.clang_format_style": "file:${workspaceFolder}/.vscode/.clang-format",
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        { "text": "커밋 메시지는 반드시 한국어로 작성하세요." }
+    ],
+    "github.copilot.chat.localeOverride": "ko"
 }
