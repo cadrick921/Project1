@@ -49,8 +49,8 @@ int main() {
     return 0;
 }
 
-int h(int k) {
-    return k % M;
+int h(int x) {
+    return x % M;
 }
 
 void initBucketArray() {

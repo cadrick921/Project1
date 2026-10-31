@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int *A, M, N;
+int *A, M, n;
 
 int h(int);
 int getNextBucket(int, int);
@@ -14,7 +14,7 @@ void freeBucketArray();
 int main() {
     char cmd;
     int k, b;
-    scanf("%d %d", &M, &N);
+    scanf("%d %d", &M, &n);
     getchar();
     initBucketArray();
     while (1) {
@@ -41,8 +41,8 @@ int main() {
     return 0;
 }
 
-int h(int k) {
-    return k % M;
+int h(int x) {
+    return x % M;
 }
 
 int getNextBucket(int v, int i) {
